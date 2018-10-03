@@ -49,7 +49,7 @@ def print_lists():
         sys.exit(0)
 
     for name, _ in lists:
-        print(f'  {name}')
+        print('{}'.format(name))
 
 
 def main():

@@ -33,4 +33,4 @@ def run(args, task_list=None):
     elif args['--id-only']:
         print(task.id)
     else:
-        print(f'{task.id}: {task.title}')
+        print('{}: {}'.format(task.id, task.title))
